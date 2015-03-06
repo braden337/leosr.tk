@@ -44,6 +44,9 @@ citymap['pyziak'] = {
 citymap['dugald'] = {
   center: new google.maps.LatLng(49.887039, -96.837452)
 };
+citymap['baker'] = {
+  center: new google.maps.LatLng(50.131870, -96.495725)
+};
 citymap['greenwald'] = {
   center: new google.maps.LatLng(50.306750, -96.510706)
 };
