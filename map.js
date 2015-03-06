@@ -72,6 +72,14 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'),
     mapOptions);
 
+  var mapLabel = new MapLabel({
+	text: 'Whitemouth',
+	position: new google.maps.LatLng(49.954169, -95.975625),
+	map: map,
+	fontSize: 12,
+	align: 'right'
+});
+
   // Construct the circle for each value in citymap.
   // Note: We scale the area of the circle based on the population.
   for (var city in citymap) {
@@ -105,13 +113,5 @@ function initialize() {
 
 }
 }
-
-var mapLabel = new MapLabel({
-	text: 'Whitemouth',
-	position: new google.maps.LatLng(49.954169, -95.975625),
-	map: map,
-	fontSize: 12,
-	align: 'right'
-});
 
 google.maps.event.addDomListener(window, 'load', initialize);
