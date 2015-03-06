@@ -1,14 +1,3 @@
-var mapLabel = new MapLabel({
-	text: 'Test',
-	position: new google.maps.LatLng(49.954169, -95.975625),
-	map: map,
-	fontSize: 20,
-	align: 'right'
-});
-
-
-
-
 //adapded from this example http://code.google.com/apis/maps/documentation/javascript/overlays.html#CustomOverlays
 //text overlays
 function TxtOverlay(pos, txt, cls, map){
