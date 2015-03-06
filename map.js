@@ -106,4 +106,12 @@ function initialize() {
 }
 }
 
+var mapLabel = new MapLabel({
+	text: 'Whitemouth',
+	position: new google.maps.LatLng(49.954169, -95.975625),
+	map: map,
+	fontSize: 12,
+	align: 'right'
+});
+
 google.maps.event.addDomListener(window, 'load', initialize);
