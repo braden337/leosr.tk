@@ -25,6 +25,9 @@ citymap['sturgeon'] = {
 citymap['comberbach'] = {
   center: new google.maps.LatLng(50.133318, -97.463086)
 };
+citymap['chorney'] = {
+  center: new google.maps.LatLng(50.148592, -96.710538)
+};
 citymap['bracken'] = {
   center: new google.maps.LatLng(50.266756, -96.970863),
   cell: true
