@@ -7,4 +7,4 @@ Each base station has a radius of ~8 miles which will have sub-inch GPS accuracy
 ###Pros/Cons of modem/radio
 | modem pros | modem cons | radio pros | radio cons |
 | ---------- | ---------- | ---------- | ---------- |
-No line of sight problems, works anywhere you have a cellular signal | have to pay ~$15/month for a small data plan | None | Needs direct line of sight to the base station in order to receiver the signal |
+No line of sight problems, works anywhere you have a cellular signal | have to pay ~$15/month for a small data plan | You could use a mobile base station and move it around with you field to field | Needs direct line of sight to the base station in order to receiver the signal |
